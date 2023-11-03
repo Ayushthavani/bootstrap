@@ -30,6 +30,9 @@ html{
     color: transparent;
     align-items: center;
 }
+#h1:hover{
+    transition: ayush 1s all alternate infinite ;
+}
 #card:hover{
     color: white;
     background-color: tomato;
@@ -102,4 +105,11 @@ html{
         display: none;
     }
   }  
-  
+  @keyframes ayush {
+    0%{
+        font-size: 0px;
+    }
+    100%{
+        font-size: 50px;
+    }
+  }
