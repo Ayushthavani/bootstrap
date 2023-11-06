@@ -8,20 +8,25 @@ html{
 #ul{
     margin-left: auto;
 }
-#navbar{
-    position: fixed;
+#crc{
+    background-image: url(image/R.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    z-index: 1;
+    height: 100%;
+
 }
 .image{
-    background-image: url(./image/malte-schmidt-enGr5YbjQKQ-unsplash.jpg);
+    background-image: url(./image/malte-schmidt-enGr5YbjQKQ-unsplash.jpg);   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 550px;
 }
-#h1 h1 , h2{
+ h1 , h2{
     background-image: url(image/mix-color.jpg);
     background-size: cover;
     background-position: center;
